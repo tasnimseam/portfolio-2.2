@@ -4,340 +4,347 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tasnim Ahamad Seam</title>
+  <meta name="description" content="Portfolio of Tasnim Ahamad Seam, UI/UX designer and web developer.">
+  <title>Tasnim Ahamad Seam | UI/UX Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="./img/logo/s_logo-removebg-preview.png">
 </head>
 
-<body class="back-color">
-  <section>
-    <div class="top-bar">
-      <div class="top-logo">
-        <img height="60px" width="40px" src="./img/logo/s_logo-removebg-preview.png" alt="">
-      <h1>
-        Se<span style="color:#7215c4">a</span>m
-      </h1>
-      </div>
+<body>
+  <header class="site-header">
+    <nav class="top-bar" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Tasnim Ahamad Seam home">
+        <img src="./img/logo/s_logo-removebg-preview.png" alt="">
+        <span>Se<span>a</span>m</span>
+      </a>
       <div class="menu-items">
-        <h4>Home</h4>
-        <h4>About</h4>
-        <h4>Process</h4>
-        <h4>Portfolio</h4>
-        <h4>Blog</h4>
-        <h4>Services</h4>
-      <button class="btn">Contect</button>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#process">Process</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#blog">Blog</a>
+        <a href="#services">Services</a>
+        <a class="btn btn-small" href="#contact">Contact</a>
       </div>
-    </div>
-  </section>
-  <section class="hero">
-    <div class="hero-text">
-      <h1>Hello, I'm <br>Tasnim Ahamad Seam</h1>
-      <p>I'm a Freelance UI/UX Designer and Developer based in London.</p>
-      <button class="btn">Say Hello</button>
+    </nav>
+  </header>
 
-      <div class="exp">
-        <div class="exp-box">
-          <h3>15 Y.</h3>
-          <p>Experience</p>
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-text">
+        <p class="eyebrow">UI/UX Designer and Web Developer</p>
+        <h1>Hello, I'm Tasnim Ahamad Seam</h1>
+        <p>I design and build clean digital products for founders, startups, and growing teams who need polished user experiences that perform well on every device.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#contact">Say Hello</a>
+          <a class="btn btn-outline" href="#portfolio">View Work</a>
         </div>
-        <div class="exp-box">
-          <h3>250+</h3>
-          <p>Project</p>
-        </div>
-        <div class="exp-box">
-          <h3>58</h3>
-          <p>Clients</p>
+
+        <div class="stats" aria-label="Professional highlights">
+          <div class="stat-box">
+            <strong>5+</strong>
+            <span>Years Experience</span>
+          </div>
+          <div class="stat-box">
+            <strong>48+</strong>
+            <span>Projects Delivered</span>
+          </div>
+          <div class="stat-box">
+            <strong>30+</strong>
+            <span>Happy Clients</span>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="hero-img">
-      <img src="./img/profil/WhatsApp_Image_2026-03-11_at_10.31.12_PM-removebg-preview.png" alt="person">
-    </div>
-  </section>
-
-  <section class="about-section">
-    <div class="about">
-      <img src="./img/profil/WhatsApp_Image_2026-03-11_at_10.31.12_PM-removebg-preview.png" alt="person">
-    <div class="about-text">
-      <h2 style="padding-bottom: 20px;">I am Professional UX Designer</h2>
-      <p style="color:  #666; padding-bottom: 20px; ">I design and develop services for customers specializing in stylish, modern websites.</p>
-      <div class="about-buttons">
-        <button class="btn">My Project</button>
-        <button class="btn-d">Download CV</button>
+      <div class="hero-img">
+        <img src="./img/profil/WhatsApp_Image_2026-03-11_at_10.31.12_PM-removebg-preview.png" alt="Portrait of Tasnim Ahamad Seam">
       </div>
-    </div>
-    </div>
-  </section>
-  <section>
-    <div class="work">
-      <div class="process-text">
+    </section>
+
+    <section class="about-section section-shell" id="about">
+      <div class="about-card">
+        <div class="about-img">
+          <img src="./img/profil/WhatsApp_Image_2026-03-11_at_10.31.12_PM-removebg-preview.png" alt="Tasnim Ahamad Seam">
+        </div>
+        <div class="about-text">
+          <p class="eyebrow">About Me</p>
+          <h2>I create user-focused websites that feel simple, sharp, and reliable.</h2>
+          <p>I combine UX research, interface design, and frontend development to turn ideas into responsive websites. My work focuses on clarity, speed, accessibility, and smooth handoff from design to code.</p>
+          <div class="about-buttons">
+            <a class="btn" href="#portfolio">My Projects</a>
+            <a class="btn btn-outline" href="#contact">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section-shell" id="process">
+      <div class="section-copy">
+        <p class="eyebrow">Process</p>
         <h2>Work Process</h2>
-        <p>My workflow follows a structured and results-driven approach. It starts with Research, where I study the
-          problem, target users, and market conditions to avoid guessing and build on real information. Then comes
-          Analysis, where I break down the collected data to identify key insights, user needs, and possible solutions.
-        </p>
+        <p>Every project starts with understanding the audience and business goal. From there I map the experience, design the interface, build the product, and refine the details before launch.</p>
       </div>
-      <div class="expi-media">
-        <div class="expi">
-          <div class="process-card">
-            <img src="./img/logo/Frame 44 (4).png" alt="">
-            <h3>1. Research</h3>
-            <p>Understand the problem, users, and market before doing anything.</p>
-          </div>
-          <div class="process-card">
-            <img src="./img/logo/Frame 44.png" alt="">
-            <h3>2. Analyze</h3>
-            <p>Break down data and insights to identify patterns and real needs.</p>
-          </div>
-        </div>
-        <div class="expie">
-          <div class="process-card">
-            <img src="./img/logo/Frame 44 (1).png" alt="">
-            <h3>3. Design</h3>
-            <p>Create simple, functional, and user-focused solutions.</p>
-          </div>
-          <div class="process-card">
-            <img src="./img/logo/Frame 44 (2).png" alt="">
-            <h3>4. Launch</h3>
-            <p>Deliver the final product and make it available to users.</p>
-          </div>
-        </div>
+      <div class="process-grid">
+        <article class="process-card">
+          <img src="./img/logo/Frame 44 (4).png" alt="">
+          <h3>1. Research</h3>
+          <p>Understand the problem, users, competitors, and project goals before making design decisions.</p>
+        </article>
+        <article class="process-card">
+          <img src="./img/logo/Frame 44.png" alt="">
+          <h3>2. Analyze</h3>
+          <p>Turn research into clear priorities, user flows, content structure, and measurable requirements.</p>
+        </article>
+        <article class="process-card">
+          <img src="./img/logo/Frame 44 (1).png" alt="">
+          <h3>3. Design</h3>
+          <p>Create polished layouts, reusable components, responsive states, and interaction details.</p>
+        </article>
+        <article class="process-card">
+          <img src="./img/logo/Frame 44 (2).png" alt="">
+          <h3>4. Launch</h3>
+          <p>Build, test, deploy, and improve the experience using real feedback after release.</p>
+        </article>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section>
-    <div class="containe">
-      <div class="portfolio-top">
-        <h1>Portfolio</h1>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
-        </p>
+    <section class="portfolio-section section-shell" id="portfolio">
+      <div class="section-heading">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Portfolio</h2>
+        <p>Recent design and development projects focused on usable interfaces, responsive layouts, and clean visual systems.</p>
       </div>
       <div class="portfolio-grid">
-        <div class="portfolio-item">
-          <div class="img-placeholder"><img src="./img/Background/unsplash_9anj7QWy-2g.png" alt=""></div>
+        <article class="portfolio-item">
+          <img src="./img/Background/unsplash_9anj7QWy-2g.png" alt="Dashboard analytics interface preview">
           <div class="port-content">
-            <span>UI/UX DESIGN</span>
-            <h4>Product Admin Dashboard</h4>
-            <button class="btn-d">Case Study</button>
+            <span>UI/UX Design</span>
+            <h3>Product Admin Dashboard</h3>
+            <a class="btn btn-outline" href="#contact">Case Study</a>
           </div>
-        </div>
-        <div class="portfolio-item">
-          <div class="img-placeholder"><img src="./img/Background/unsplash_C5DLhUkEWfM.png" alt=""></div>
+        </article>
+        <article class="portfolio-item">
+          <img src="./img/Background/unsplash_C5DLhUkEWfM.png" alt="Finance app interface preview">
           <div class="port-content">
-            <span>UI/UX DESIGN</span>
-            <h4>Product Admin Dashboard</h4>
-            <button class="btn-d">Case Study</button>
+            <span>Web Design</span>
+            <h3>Finance Landing Page</h3>
+            <a class="btn btn-outline" href="#contact">Case Study</a>
           </div>
-        </div>
-        <div class="portfolio-item">
-          <div class="img-placeholder"><img src="./img/Background/unsplash_m_HRfLhgABo.png" alt=""></div>
+        </article>
+        <article class="portfolio-item">
+          <img src="./img/Background/unsplash_m_HRfLhgABo.png" alt="Mobile app screens preview">
           <div class="port-content">
-            <span>UI/UX DESIGN</span>
-            <h4>Product Admin Dashboard</h4>
-            <button class="btn-d">Case Study</button>
+            <span>Mobile UX</span>
+            <h3>Task Management App</h3>
+            <a class="btn btn-outline" href="#contact">Case Study</a>
           </div>
-        </div>
-        <div class="portfolio-item-2">
-          <div class="img-placeholder"><img src="./img/Background/unsplash_GWe0dlVD9e0.png" alt=""></div>
+        </article>
+        <article class="portfolio-item">
+          <img src="./img/Background/unsplash_GWe0dlVD9e0.png" alt="Ecommerce product interface preview">
           <div class="port-content">
-            <span>UI/UX DESIGN</span>
-            <h4>Product Admin Dashboard</h4>
-            <button class="btn-d">Case Study</button>
+            <span>Frontend</span>
+            <h3>Ecommerce Product Page</h3>
+            <a class="btn btn-outline" href="#contact">Case Study</a>
           </div>
-        </div>
-        <div class="portfolio-item-2">
-          <div class="img-placeholder"><img src="./img/Background/unsplash_m_HRfLhgABo.png" alt=""></div>
+        </article>
+        <article class="portfolio-item">
+          <img src="./img/Background/unsplash_m_HRfLhgABo.png" alt="SaaS onboarding flow preview">
           <div class="port-content">
-            <span>UI/UX DESIGN</span>
-            <h4>Product Admin Dashboard</h4>
-            <button class="btn-d">Case Study</button>
+            <span>UX Strategy</span>
+            <h3>SaaS Onboarding Flow</h3>
+            <a class="btn btn-outline" href="#contact">Case Study</a>
           </div>
-        </div>
-        <div class="portfolio-item-2">
-          <div class="img-placeholder"><img src="./img/Background/unsplash_SavQfLRm4Do.png" alt=""></div>
+        </article>
+        <article class="portfolio-item">
+          <img src="./img/Background/unsplash_SavQfLRm4Do.png" alt="Creative agency website preview">
           <div class="port-content">
-            <span>UI/UX DESIGN</span>
-            <h4>Product Admin Dashboard</h4>
-            <button class="btn-d">Case Study</button>
+            <span>Brand Website</span>
+            <h3>Creative Agency Website</h3>
+            <a class="btn btn-outline" href="#contact">Case Study</a>
           </div>
-        </div>
+        </article>
       </div>
-      <div class="text-button">
-        <button class="btn-2">More Project</button>
+      <div class="center-action">
+        <a class="btn" href="#contact">More Projects</a>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="cta">
-    <div class="contain">
-      <h1>Do you have Project Idea?</h1>
-      <h1>Let's discuss your project!</h1>
-      <p style="color: rgb(137, 137, 151);">My workflow follows a structured and results-driven approach. It starts with Research, where I study the problem, target users, and market conditions to avoid guessing and build on real information. Then comes Analysis, where I break down the collected data to identify key insights, user needs, and possible solutions.</p>
-      <div><button class="btn-2">Let's work Together </button></div>
-    </div>
-  </section>
+    <section class="cta">
+      <div class="section-shell">
+        <h2>Do you have a project idea?</h2>
+        <p>Let's discuss your goals, timeline, and the kind of digital experience your users need.</p>
+        <a class="btn" href="#contact">Let's Work Together</a>
+      </div>
+    </section>
 
-  <section>
-    <div class="blog-set">
-      <div class="blog-top">
-        <h1>Blog</h1>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
-        </p>
+    <section class="blog-set section-shell" id="blog">
+      <div class="section-heading">
+        <p class="eyebrow">Notes</p>
+        <h2>Blog</h2>
+        <p>Short articles about UX thinking, interface design, frontend quality, and building better digital products.</p>
       </div>
       <div class="blog-grid">
-        <div class="portfolio-item-2">
-          <div class="img-placeholder-2"><img src="./img/Background/unsplash_phIFdC6lA4E.png" alt=""></div>
+        <article class="blog-card">
+          <img src="./img/Background/unsplash_phIFdC6lA4E.png" alt="Workspace with design notes">
           <div class="port-content">
-            <span>22 Oct, 2020/246 Comments</span>
-            <h4>Product Admin Dashboard</h4>
+            <span>Design Process</span>
+            <h3>How research improves visual decisions</h3>
           </div>
-        </div>
-        <div class="portfolio-item-2">
-          <div class="img-placeholder-2"><img src="./img/Background/unsplash_coj7UZ7iN60.png" alt=""></div>
+        </article>
+        <article class="blog-card">
+          <img src="./img/Background/unsplash_coj7UZ7iN60.png" alt="Laptop with product interface">
           <div class="port-content">
-            <span>22 Oct, 2020/246 Comments</span>
-            <h4>Product Admin Dashboard</h4>
+            <span>Frontend</span>
+            <h3>Small details that make websites feel faster</h3>
           </div>
-        </div>
-        <div class="portfolio-item-2">
-          <div class="img-placeholder-2"><img src="./img/Background/unsplash_z0MDyylvY1k.png" alt=""></div>
+        </article>
+        <article class="blog-card">
+          <img src="./img/Background/unsplash_z0MDyylvY1k.png" alt="Team reviewing a project">
           <div class="port-content">
-            <span>22 Oct, 2020/246 Comments</span>
-            <h4>Product Admin Dashboard</h4>
+            <span>UX Strategy</span>
+            <h3>Designing flows that reduce user confusion</h3>
           </div>
-        </div>
-        <div class="portfolio-item-2">
-          <div class="img-placeholder-2"><img src="./img/Background/unsplash_-udZnjsCzsE.png" alt=""></div>
+        </article>
+        <article class="blog-card">
+          <img src="./img/Background/unsplash_-udZnjsCzsE.png" alt="Website layout sketches">
           <div class="port-content">
-            <span>22 Oct, 2020/246 Comments</span>
-            <h4>Product Admin Dashboard</h4>
+            <span>UI Design</span>
+            <h3>Creating a clean visual hierarchy</h3>
           </div>
-        </div>
+        </article>
       </div>
-    </div>
-  </section>
-  <section class="work-last">
-    <div class="process-text">
-      <h1>What I do?</h1>
-      <p>My workflow follows a structured and results-driven approach. It starts with Research, where I study the
-        problem, target users, and market conditions to avoid guessing and build on real information. <br> <br> Then
-        comes Analysis, where I break down the collected data to identify key insights, user needs, and possible
-        solutions.</p>
-        <button class="btn">Say Hello</button>
-    </div>
-    <div>
-      <div class="process-card-2">
-        <h1>User Experience (UX)</h1>
-        <p>I design with users in mind—focusing on simplicity, clarity, and ease of use. By understanding user needs and
-          behaviors, I create intuitive, responsive designs that make interactions smooth and enjoyable.</p>
-      </div>
-      <div class="process-card-2">
-        <h1>User Interface (UI)</h1>
-        <p>I create clean, visually appealing interfaces that enhance usability and reflect brand identity. By focusing
-          on layout, color, typography, and consistency, I design interfaces that are both attractive and easy to
-          navigate across all devices.</p>
-      </div>
-      <div class="process-card-2">
-        <h1> Web Development</h1>
-        <p>I build fast, responsive, and scalable websites using modern technologies. My focus is on clean code,
-          performance, and functionality to ensure smooth user experiences across all devices and browsers.</p>
-      </div>
-    </div>
-  </section>
-  <section> 
-    <div class="process-text-2">
-      <h1>Happy Clients</h1>
-      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-    </div>
-    <div class="client-logo">
-      <img src="./img/logo/google.png" alt="">
-      <img src="./img/logo/dribbble.png" alt="">
-      <img src="./img/logo/linkedin.png" alt="">
-      <img src="./img/logo/amazon.png" alt="">
-      <img src="./img/logo/medium.png" alt="">
-      <img src="./img/logo/spotify.png" alt="">
-    </div>
-    <div class="process-text-2">
-      <h1>Testimonial</h1>
-      <p  style="color: rgb(108, 100, 89);">Clients appreciate my focus on quality, clear communication, and timely delivery. I aim to understand their needs deeply and provide solutions that actually work, not just look good. My goal is to build trust through consistent performance and reliable results, ensuring every project meets expectations and adds real value.</p>
-    </div>
-    <div class="process-text-3">
-      <h4>“Nulla efficitur nisl sit amet velit malesuada dapibus. Duis mollis felis turpis, nec semper odio convallis at. Curabitur imperdiet semper arcu, a finibus arcu suscipit in. Donec quis placerat nibh. Maecenas est purus, eleifend ac cursus sed, tincidunt ut sapien.Morbi ornare elit at libero suscipit porta.”</h4>
-    </div>
-    <div class="process-text-3">
-      <h3><strong>Esther Howard</strong></h3>
-      <h4>Managing Director, ABC company</h4>
-    </div>
+    </section>
 
-  </section>
-  <section>
-    <div class="last-section">
-      <div class="last-section-info">
-        <h2>Let’s discuss your Project</h2>
-        <p style="color: #666;">There are many variations of passages of Lorem Ipsum available.</p>
-        <div class="info-box">
-          <img src="./img/logo/Frame 50.png" alt="">
-          <h4>Address:</h4>
-          <p>New Mexico 31134</p>
-        </div>
-        <div class="info-box">
-          <img src="./img/logo/Frame 50 (1).png" alt="">
-          <h4>My Email:</h4>
-          <p>mymail@gmail.com</p>
-        </div>
-        <div class="info-box">
-          <img src="./img/logo/Frame 50 (1).png" alt="">
-          <h4>Call Me Now:</h4>
-          <p>00-1234 00000</p>
-        </div>
-        <div class="last-image-2">
-          <img src="./img/logo/Social Media card 1(5).png" alt="">
-        <img src="./img/logo/O.png" alt="">
-        <img src="./img/logo/be.png" alt="">
-        <img src="./img/logo/insta.png" alt="">
-        <img src="./img/logo/in.png" alt="">
-        </div>
+    <section class="services-section section-shell" id="services">
+      <div class="section-copy">
+        <p class="eyebrow">Services</p>
+        <h2>What I do</h2>
+        <p>I help clients move from early product ideas to finished websites through design, development, and practical product thinking.</p>
+        <a class="btn" href="#contact">Say Hello</a>
       </div>
-      <div class="contact-form">
-        <form>
-          <input type="text" placeholder="Name*" required>
-          <input type="email" placeholder="Email*" required>
-          <input type="text" placeholder="Location">
-  
-          <div class="row">
-            <input type="text" placeholder="Budget*">
-            <input type="text" placeholder="Subject*">
+      <div class="services-list">
+        <article class="service-card">
+          <h3>User Experience (UX)</h3>
+          <p>I design with users in mind, focusing on clarity, structure, and simple paths that help people complete their goals.</p>
+        </article>
+        <article class="service-card">
+          <h3>User Interface (UI)</h3>
+          <p>I create polished interfaces with thoughtful typography, spacing, color, and responsive behavior across devices.</p>
+        </article>
+        <article class="service-card">
+          <h3>Web Development</h3>
+          <p>I build fast, responsive, and maintainable websites with clean HTML and CSS foundations.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="clients-section section-shell">
+      <div class="section-heading">
+        <p class="eyebrow">Trusted By</p>
+        <h2>Happy Clients</h2>
+        <p>Collaborating with ambitious brands and teams to deliver thoughtful digital experiences.</p>
+      </div>
+      <div class="client-logo">
+        <img src="./img/logo/google.png" alt="Google">
+        <img src="./img/logo/dribbble.png" alt="Dribbble">
+        <img src="./img/logo/linkedin.png" alt="LinkedIn">
+        <img src="./img/logo/amazon.png" alt="Amazon">
+        <img src="./img/logo/medium.png" alt="Medium">
+        <img src="./img/logo/spotify.png" alt="Spotify">
+      </div>
+      <blockquote class="testimonial">
+        <p>"Tasnim brings strong design judgment, clear communication, and reliable delivery. The final website looked polished and made our product easier to understand."</p>
+        <cite>Esther Howard, Managing Director at ABC Company</cite>
+      </blockquote>
+    </section>
+
+    <section class="contact-section section-shell" id="contact">
+      <div class="contact-card">
+        <div class="last-section-info">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's discuss your project</h2>
+          <p>Share your idea, timeline, and goals. I will help shape the next step.</p>
+          <div class="info-box">
+            <img src="./img/logo/Frame 50.png" alt="">
+            <div>
+              <h3>Address</h3>
+              <p>Dhaka, Bangladesh</p>
+            </div>
           </div>
-          <textarea placeholder="Message*"></textarea>
+          <div class="info-box">
+            <img src="./img/logo/Frame 50 (1).png" alt="">
+            <div>
+              <h3>Email</h3>
+              <p>tasnimas2005@gmail.com</p>
+            </div>
+          </div>
+          <div class="info-box">
+            <img src="./img/logo/Frame 50 (1).png" alt="">
+            <div>
+              <h3>Phone</h3>
+              <p>00-1234 00000</p>
+            </div>
+          </div>
+          <div class="social-links" aria-label="Social links">
+            <a href="#"><img src="./img/logo/Social Media card 1(5).png" alt="Facebook"></a>
+            <a href="#"><img src="./img/logo/O.png" alt="Website"></a>
+            <a href="#"><img src="./img/logo/be.png" alt="Behance"></a>
+            <a href="#"><img src="./img/logo/insta.png" alt="Instagram"></a>
+            <a href="#"><img src="./img/logo/in.png" alt="LinkedIn"></a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+          <label>
+            <span>Location</span>
+            <input type="text" name="location" placeholder="City, country">
+          </label>
+          <div class="form-row">
+            <label>
+              <span>Budget</span>
+              <input type="text" name="budget" placeholder="$500 - $2000">
+            </label>
+            <label>
+              <span>Subject</span>
+              <input type="text" name="subject" placeholder="Website design">
+            </label>
+          </div>
+          <label>
+            <span>Message</span>
+            <textarea name="message" placeholder="Tell me about your project" required></textarea>
+          </label>
           <button class="btn" type="submit">Submit</button>
         </form>
       </div>
-    </div>
-  </section>
-  <section>
-    <div class="bottom-bar">
-      <div class="footer-img">
-        <img height="60px" width="40px" src="./img/logo/s_logo-removebg-preview.png" alt="">
-      <h1 class="logo" style="color: antiquewhite;">Seam</h1>
-      </div>
-      <div class="bottom-manu">
-        <a class="footer-links" style="color: antiquewhite;" href="">Home</a>
-        <a class="footer-links" style="color: antiquewhite;" href="">About</a>
-        <a class="footer-links" style="color: antiquewhite;" href="">Process</a>
-        <a class="footer-links" style="color: antiquewhite;" href="">Portfolio</a>
-        <a class="footer-links" style="color: antiquewhite;" href="">Blog</a>
-        <a class="footer-links" style="color: antiquewhite;" href="">Services</a>
-        <a class="footer-links" style="color: antiquewhite;" href="">Contact</a>
-      </div>
-      <div>
-        <p style="color: antiquewhite; padding-top: 10px;">Copyright © 2022 Picto.</p>
-      </div>
-    </div>
-  </section>
-</body>
+    </section>
+  </main>
 
-</html>
+  <footer class="bottom-bar">
+    <a class="brand brand-footer" href="#home">
+      <img src="./img/logo/s_logo-removebg-preview.png" alt="">
+      <span>Seam</span>
+    </a>
+    <div class="bottom-menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#process">Process</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#blog">Blog</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <p>Copyright &copy; 2026 Seam.</p>
+  </footer>
+</body>
 
 </html>
